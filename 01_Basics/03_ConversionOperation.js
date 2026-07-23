@@ -44,7 +44,7 @@ let str3=str1+str2
 
 let num1, num2, num3
 
-num1 = num2 = num3 = 2+2
+num1 = num2 = num3 = 2+2 // This type of practise is not suitable so we dont have use these types of trickyness while writting the code
 
 let gameCounter=100
 gameCounter++
