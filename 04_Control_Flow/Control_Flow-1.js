@@ -12,9 +12,9 @@
 
 
 // const isUserLoggedIn=true;
-if(isUserLoggedIn){
+// if(isUserLoggedIn){
 
-}
+// }
 
 if(2==="2"){  //=== triple equal strictly checks for value and data type we are comparing
     console.log("Executed");
@@ -58,7 +58,14 @@ else{
 
 const userLoggedIn=true;
 const debitCard=true;
+const loggedInFromGoogle=false;
+const loggedInFromEmail=true;
 
-if(usserLoggedIn && debitCard){
-    console.log("Allow to buy course");
+
+if(userLoggedIn && debitCard){
+    // console.log("Allow to buy course");
+}
+
+if(loggedInFromGoogle || loggedInFromEmail){
+    console.log("User logged In");
 }
